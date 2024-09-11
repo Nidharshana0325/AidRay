@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:background="@color/primary_color"> <!-- Optional background color -->
+
+    <!-- App Logo -->
+    <ImageView
+        android:id="@+id/appLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo"
+        android:contentDescription="App Logo"
+        android:layout_marginBottom="24dp" />
+
+    <!-- Tagline -->
+    <TextView
+        android:id="@+id/tagline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:text="Your First Aid Assistant"
+        android:textColor="@color/text_color"
+        android:textSize="22sp"
+        android:textStyle="bold|italic" />
+
+    <!-- Language Selection Button -->
+    <Button
+        android:id="@+id/languageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Language"
+        android:textSize="16sp"
+        android:padding="12dp"
+        android:background="@drawable/button_background"
+        android:textColor="@color/primary_color"
+        android:layout_marginBottom="24dp" />
+
+    <!-- Start Chat Button -->
+    <Button
+        android:id="@+id/startChatButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start Chat"
+        android:textSize="16sp"
+        android:padding="12dp"
+        android:background="@drawable/button_background"
+        android:textColor="@color/primary_color" />
+</LinearLayout>

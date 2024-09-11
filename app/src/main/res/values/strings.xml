@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Aidray Bot</string>
+    <string name="error_message">Sorry, I did not understand that request.</string>
+</resources>

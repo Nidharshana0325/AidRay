@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/primary_color">
+
+    <!-- Welcome Message -->
+    <TextView
+        android:id="@+id/chatWelcomeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="Welcome Message"
+        android:textSize="20sp"
+        android:textColor="@color/background_color"
+    android:textStyle="bold"
+    tools:ignore="HardcodedText" />
+
+    <!-- Chat Messages (for displaying user and bot messages) -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/chatRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginBottom="16dp"
+        android:scrollbars="vertical"
+        android:padding="8dp" />
+
+    <!-- User Input and Buttons -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="16dp">
+
+        <EditText
+            android:id="@+id/userInputField"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/edittext_background"
+            android:hint="Type your message"
+            android:padding="12dp"
+            android:textColor="@color/on_background_color"
+            android:textColorHint="#616161"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            android:id="@+id/sendButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:background="@color/accent_color"
+            android:padding="12dp"
+            android:text="Send"
+            android:textColor="#212121"
+            tools:ignore="HardcodedText" />
+    </LinearLayout>
+
+    <!-- Emergency Call Button -->
+    <Button
+        android:id="@+id/emergencyButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@color/error_color"
+        android:padding="12dp"
+        android:text="Emergency Call"
+        android:textColor="#212121"
+        tools:ignore="HardcodedText,TextContrastCheck" />
+
+</LinearLayout>

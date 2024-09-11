@@ -1,0 +1,14 @@
+<resources>
+    <color name="background_color">#FFFFFF</color> <!-- Replace with desired color -->
+    <color name="primary_color">#000000</color> <!-- Replace with desired color -->
+    <color name="on_background_color">#757575</color> <!-- Replace with desired color -->
+    <color name="accent_color">#FF4081</color> <!-- Replace with desired color -->
+    <color name="error_color">#D32F2F</color>
+    <color name="chatBotBubbleColor">#009688</color>
+    <color name="userBubbleColor">#183C74</color>
+    <color name="button_start_color">#FF4081</color> <!-- Gradient start color -->
+    <color name="button_end_color">#F50057</color> <!-- Gradient end color -->
+    <color name="button_pressed_color">#C51162</color>
+    <color name="text_color">#FCFAFA</color> <!-- Color when button is pressed -->
+    <!-- Replace with desired color -->
+</resources>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    android:background="@color/primary_color"> <!-- Optional background color -->
+
+    <!-- Language Selection Prompt -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="Please select a language:"
+        android:textColor="@color/text_color"
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        tools:ignore="HardcodedText" />
+
+    <!-- Language Selection Button for English -->
+    <Button
+        android:id="@+id/selectEnglishButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="English"
+        android:padding="12dp"
+        android:background="@drawable/button_background"
+        android:textColor="@color/primary_color"
+        android:textSize="16sp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="8dp"/>
+
+    <!-- Language Selection Button for Tamil -->
+    <Button
+        android:id="@+id/selectTamilButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tamil"
+        android:padding="12dp"
+        android:background="@drawable/button_background"
+        android:textColor="@color/primary_color"
+        android:textSize="16sp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="8dp"/>
+
+    <!-- Language Selection Button for Hindi -->
+    <Button
+        android:id="@+id/selectHindiButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hindi"
+        android:padding="12dp"
+        android:background="@drawable/button_background"
+        android:textColor="@color/primary_color"
+        android:textSize="16sp"
+        android:layout_marginTop="8dp"/>
+
+</LinearLayout>
