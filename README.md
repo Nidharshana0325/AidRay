@@ -11,7 +11,10 @@ AidRay is designed to assist college and school students by providing easy acces
 - **Offline Functionality**: Operates completely offline using a local `intents.json` file.
 - **Multi-language Support**: Includes English, Tamil, and Hindi languages for a more personalized experience.
 - **Emergency Call**: Provides an option to call emergency services directly from the app.
-
+https://github.com/Nidharshana0325/AidRay/blob/main/welcome%20page.jpg?raw=true
+https://github.com/Nidharshana0325/AidRay/blob/main/language.jpg?raw=true
+https://github.com/Nidharshana0325/AidRay/blob/main/hindi.jpg?raw=true
+https://github.com/Nidharshana0325/AidRay/blob/main/english.jpg?raw=true
 ## Prerequisites
 
 - **Android Studio**: For building and running the app.
